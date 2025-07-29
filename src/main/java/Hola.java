@@ -1,8 +1,17 @@
-// Se puede hacer compilacion de un archivo .java con javac
-// esta crea un archivo .class que es la compilacion para correrlo usamos el comando java
-// aunque desde las ultimas versiones de java podemos usar el comando java y el archivo .java y este compilara y ejecutara, pero este no genera el archivo .class
+//Esto es un comentario en java
 public class Hola {
+
+    /** con barra y doble asterisco creamos este comentario
+     *
+     * los arrobas son palabras claves del lenguaje que podemos usar para ayudarnos los comentarios
+     * @param args
+     * @author daniel
+     */
+
     public static void main(String[] args) {
+        /*
+         * Esto es un comentario multible o de bloque
+         * */
         System.out.println("Hola mundo");
     }
 }
